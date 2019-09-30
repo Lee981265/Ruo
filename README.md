@@ -1,4 +1,4 @@
-# vRuo
+# Ruo
 
 ## Project setup
 ```
