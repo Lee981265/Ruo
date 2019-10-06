@@ -28,6 +28,7 @@ export default {
    * Gitalk 配置【评论功能】，详细文档参见：https://github.com/gitalk/gitalk
    */
   gitalk: {
+    display: false, // 是否显示评论
     clientID: '864b1c2cbc4e4aad9ed8',
     clientSecret: '6ca16373efa03347e11a96ff92e355c5cea189bb',
     repo: 'comment', // 评论仓库地址

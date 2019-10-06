@@ -1,5 +1,5 @@
 <template>
-  <div id="gitalk" />
+  <div v-if="isShow" id="gitalk" />
 </template>
 
 <script>
@@ -11,6 +11,11 @@ export default {
     title: {
       type: String,
       default: ''
+    }
+  },
+  data(){
+    return {
+      isShow: this.$config.gitalk.display
     }
   },
   mounted() {

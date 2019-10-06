@@ -2,8 +2,7 @@
   <div id="header">
     <div class="inner">
       <RouterLink class="title" to="/">{{ $config.title }}</RouterLink>
-      <!-- <span class="subtitle">{{ $config.subtitle }}</span> -->
-      <span class="subtitle">53453</span>
+      <span class="subtitle">{{ $config.subtitle }}</span>
       <ul>
         <li v-for="menu in displayMenu" :key="menu.path">
           <RouterLink :to="menu.path">
