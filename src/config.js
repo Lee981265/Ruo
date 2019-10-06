@@ -1,6 +1,6 @@
 /**
  * Ruo 主题配置文件
- * 联系作者：Blog https://lee.js.org      QQ 2037343920
+ * 联系作者：Blog: https://lee.js.org      QQ: 2037343920
  */
 
 export default {
@@ -13,8 +13,8 @@ export default {
   /**
    * 站点标题
    */
-  title: '蝉時雨',
-  subtitle: '蝉鸣如雨 花宵道中',
+  title: '若尘',
+  subtitle: 'coding with love',
 
   /**
    * Github Issues 配置【文章、说说、书单、友链】
@@ -28,12 +28,12 @@ export default {
    * Gitalk 配置【评论功能】，详细文档参见：https://github.com/gitalk/gitalk
    */
   gitalk: {
-    display: false, // 是否显示评论
-    clientID: '864b1c2cbc4e4aad9ed8',
-    clientSecret: '6ca16373efa03347e11a96ff92e355c5cea189bb',
+    display: true, // 是否显示评论
+    clientID: '057dc90573215123a895',
+    clientSecret: 'c67c283c8f875cb7c7a20fe6fadc364c5eec0de7',
     repo: 'comment', // 评论仓库地址
-    owner: 'chanshiyucx',
-    admin: ['chanshiyucx'],
+    owner: 'Lee981265',
+    admin: ['Lee981265'],
     distractionFreeMode: false // 是否开始无干扰模式【背景遮罩】
   },
 

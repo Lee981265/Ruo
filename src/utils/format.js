@@ -10,8 +10,6 @@ const coverRegex = /^\[(.+)\].*(http.*(?:jpg|jpeg|png|gif))/
 export const formatPost = post => { 
   const { body, created_at } = post
   const result = regex.exec(body)  
-  console.log(result[1])
-  // console.log()
   const cover = coverRegex.exec(result[1])
   post.cover = {
     title: cover[1] || 'defaultCover',

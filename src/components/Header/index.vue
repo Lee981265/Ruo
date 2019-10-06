@@ -1,16 +1,22 @@
 <template>
   <div id="header">
-    <div class="inner">
-      <RouterLink class="title" to="/">{{ $config.title }}</RouterLink>
-      <span class="subtitle">{{ $config.subtitle }}</span>
-      <ul>
-        <li v-for="menu in displayMenu" :key="menu.path">
-          <RouterLink :to="menu.path">
-            <i :class="['icon', `icon-${menu.icon}`]" /> {{ menu.title }}
-          </RouterLink>
-        </li>
-      </ul>
-    </div>
+    <nav>
+      <div class="header-content">
+        <div class="title">{{ $config.title }}</div>
+        <div class="search">
+          <i class="icon icon-search"></i>
+        </div>
+        <div class="main-menu">
+          <ul>
+            <li v-for="menu in displayMenu" :key="menu.path">
+              <RouterLink :to="menu.path">
+                {{ menu.title }}
+              </RouterLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
 </template>
 

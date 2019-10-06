@@ -57,7 +57,7 @@ new Vue({
 
 // (o=^•ェ•)o
 const labelStyle = 'color:#FFF;line-height:22px;background:#D68FE9;'
-const siteUrl = 'https://github.com/chanshiyucx/aurora'
+const siteUrl = 'https://github.com/Lee981265/Ruo'
 const bg = 'https://raw.githubusercontent.com/chanshiyucx/poi/master/2019/reimu.png'
 console.info(`%c ${config.title} %c`, `${labelStyle}`, '', window.location.origin)
 console.info('%c Theme %c', `${labelStyle}`, '', siteUrl)

@@ -22,10 +22,10 @@
       <APlayer :class="isMini && 'mini'" :audio="audio" fixed mini @update:mini="handleUpdate" />
     </div>
     <div class="site-info">
-      <p><i class="icon icon-copyright"></i>2017-2019 <i class="icon icon-heart"></i> {{ $config.title }}</p>
+      <p><i class="icon icon-copyright"></i>2019 <i class="icon icon-heart"></i> {{ $config.title }}</p>
       <p>
         Theme -
-        <a rel="noopener noreferrer" target="_blank" href="https://github.com/chanshiyucx/aurora">Aurora</a> |
+        <a rel="noopener noreferrer" target="_blank" href="https://github.com/Lee981265/Ruo">Ruo</a> |
         {{ $config.subtitle }}
       </p>
     </div>

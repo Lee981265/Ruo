@@ -1,4 +1,86 @@
 #header {
+  margin-bottom: 100px;
+  > nav{
+      height: 60px;
+      box-shadow: 0 0 5px 0 rgba(0,0,0,0.43);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 999;
+      background-color: #fff;
+      background-color: rgba(255,255,255,0.9);
+
+      > .header-content{
+          height: 100%;
+          max-width: 1000px;
+          margin: 0 auto;
+
+        > .title{
+            float: left;
+            height: 100%;
+            font-size: 32px;
+            line-height: 60px;
+            font-style: italic!important;
+            font-family: Playfair Display,Georgia,Times New Roman,serif;
+            margin: 0 auto;
+            /* letter-spacing: 3px; */
+            color: #e67e22;
+            text-overflow: ellipsis;
+            // overflow: hidden;
+            white-space: nowrap;
+            background-image: -webkit-linear-gradient(left, #cddc39, #e67e22 25%, #cddc39 50%, #e67e22 75%, #cddc39) !important;
+            -webkit-text-fill-color: transparent!important;
+            -webkit-background-clip: text!important;
+            background-size: 200% 100%!important;
+            animation: masked-animation 2s infinite linear !important;
+        }
+        > .search{
+            float: right;
+            height: 100%;
+            line-height: 60px;
+            width: 40px;
+        }
+        > .main-menu{
+          float: right;
+          ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 0.6rem;
+            li {
+              padding-top: 0.04rem;
+              width: 0.5rem;
+              font-size: 0.16rem;
+              list-style: none;
+              height: 86%;
+              @media screen and (max-width: 600px) {
+                width: 0.6rem;
+              }
+
+              .icon{
+                display: inline-block;
+              }
+      
+              a {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 100%;
+                transition: color 0.3s ease-out;
+      
+                &:hover {
+                  &,
+                  i {
+                    color: var(--primary-color);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   .inner {
     display: flex;
     flex-direction: column;
