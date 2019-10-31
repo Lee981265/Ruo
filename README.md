@@ -1,5 +1,8 @@
 # Ruo
 
+## Update log
+---
+
 ## Special thanks
 
 | [<img src="https://avatars1.githubusercontent.com/u/22583039?s=400&v=4" width="60px;"/><br /><sub>chanshiyucx</sub>](https://github.com/chanshiyucx)|
