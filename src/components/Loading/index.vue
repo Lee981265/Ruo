@@ -5,8 +5,8 @@
 <style lang="less" scoped>
 .loading {
   img {
-    margin: 1rem auto;
-    width: 3rem;
+    margin: 2rem auto;
+    width: 4rem;
   }
 }
 </style>
