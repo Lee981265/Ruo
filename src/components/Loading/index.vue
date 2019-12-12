@@ -6,7 +6,7 @@
 .loading {
   img {
     margin: 1rem auto;
-    width: 1rem;
+    width: 3rem;
   }
 }
 </style>
